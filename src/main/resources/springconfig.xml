@@ -10,6 +10,10 @@
     </bean>
 
     <bean id="s2" class="org.pk.Student">
+        <property name="age" value="30"/>
+    </bean>
+
+    <bean id="t1" class="org.pk.Teacher">
 
     </bean>
 </beans>
