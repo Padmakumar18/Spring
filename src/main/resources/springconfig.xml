@@ -5,7 +5,11 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- bean definitions here -->
-    <bean id="st1" class="org.pk.Student">
+    <bean id="s1" class="org.pk.Student">
+
+    </bean>
+
+    <bean id="s2" class="org.pk.Student">
 
     </bean>
 </beans>

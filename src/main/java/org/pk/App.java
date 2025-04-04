@@ -13,6 +13,8 @@ public class App
     {
         ApplicationContext context = new ClassPathXmlApplicationContext("springconfig.xml");
         Student s1 = (Student) context.getBean(Student.class);
+        Student s2 = (Student) context.getBean("s2");
+
         s1.show();
     }
 }
